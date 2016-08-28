@@ -8,14 +8,14 @@ For more information regarding tldr pages refer [tldr](https://github.com/tldr-p
 ## Installing
 
 ```bash
-docker pull s3than/docker-tldr
+docker pull s3than/tldr
 ```
 
 ## Usage
 
 To see tldr pages:
 
-Usage as Docker run `docker run -it s3than/docker-tldr tldr $argv`
+Usage as Docker run `docker run -it s3than/tldr tldr $argv`
 
 - `tldr <command>` show examples for this command
 - `tldr <command> --os=<platform>` show command page for the given platform (`linux`, `osx`, `sunos`)
