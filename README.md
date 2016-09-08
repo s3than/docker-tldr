@@ -1,6 +1,8 @@
 # tldr-node-client
 A Docker Alpine image of the nodejs tldr client.
 
+[![](https://images.microbadger.com/badges/image/s3than/tldr.svg)](https://microbadger.com/images/s3than/tldr "Get your own image badge on microbadger.com")
+
 For more information regarding tldr pages refer [tldr](https://github.com/tldr-pages/tldr).
 
 ![tldr screenshot](http://raw.github.com/tldr-pages/tldr-node-client/master/screenshot.png)
