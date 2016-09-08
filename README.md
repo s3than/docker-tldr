@@ -2,6 +2,7 @@
 A Docker Alpine image of the nodejs tldr client.
 
 [![](https://images.microbadger.com/badges/image/s3than/tldr.svg)](https://microbadger.com/images/s3than/tldr "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/s3than/tldr.svg)](http://microbadger.com/images/s3than/tldr "Get your own version badge on microbadger.com")
 
 For more information regarding tldr pages refer [tldr](https://github.com/tldr-pages/tldr).
 
