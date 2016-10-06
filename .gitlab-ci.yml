@@ -1,0 +1,10 @@
+build_image:
+  image: docker:rc-git
+  services:
+    - docker:rc-dind
+  script:
+    - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.gitlab.com
+    - docker build --build-arg PLEX_PASS=true --rm --no-cache --pull -t registry.gitlab.com/docker-applications/tldr:latest .
+    - docker push registry.gitlab.com/docker-applications/tldr
+  only:
+    - master
